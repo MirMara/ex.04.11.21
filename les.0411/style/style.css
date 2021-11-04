@@ -1,0 +1,53 @@
+main {
+    width: 80%;
+    margin: 50px auto 80px;
+    font-family: sans-serif;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input,
+  form button {
+    line-height: 20px;
+    padding: 5px;
+    font-size: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+  }
+  
+  ul li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px 0;
+  }
+
+
+.NewLabel {
+    
+padding: 10px;
+margin: auto;
+display: grid;
+flex-direction: column;
+text-align: center;
+justify-content: center;
+column-gap: 50px;
+  } 
+
+  .Nuovo {
+    display: block;
+    padding: 10px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+  }
